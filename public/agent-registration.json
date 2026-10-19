@@ -1,0 +1,21 @@
+{
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+  "name": "Arc Data Agent",
+  "description": "Onchain data summarization agent. Summarizes governance proposals, token activity, and contract events for a per-call USDC fee via x402.",
+  "services": [
+    {
+      "name": "A2A",
+      "endpoint": "https://i68gvomi8z75e5vfhxz9x.preview.studio.arc.io/api/summarize",
+      "version": "0.3.0"
+    },
+    {
+      "name": "x402",
+      "endpoint": "https://i68gvomi8z75e5vfhxz9x.preview.studio.arc.io/api/summarize",
+      "version": "1.0.0"
+    }
+  ],
+  "x402Support": true,
+  "active": true,
+  "registrations": [],
+  "supportedTrust": ["reputation", "crypto-economic"]
+}
